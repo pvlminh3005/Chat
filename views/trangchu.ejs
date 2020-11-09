@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zalo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="loginChat">
+        <input type="text" placeholder="Input your name" id="txtName">
+        <input type="button" name="" id="btnCreate" value="Create">
+    </div>
+    <div id="chat-container">
+        <div id="search-container">
+            <input type="text" placeholder="Search">
+        </div>
+        <div id="conversation-list">
+            <!-- Show list User chat -->
+        </div>
+        <div id="new-message-container">
+            <a href="#">+</a>
+        </div>
+        <div id="chat-title">
+            <span id="spanName"></span>
+            <img id="logoutChat" src="icons8-trash.svg" alt="Delete Conversation">
+        </div>
+        <div id="chat-message-list">
+            <!-- Show box chat -->
+        </div>
+        <div id="chat-form">
+            <img src="attachment.png" alt="Add Attachment">
+            <input id="txtMessage" type="text" placeholder="Type a message">
+            <img id="imgSendMessage" src="send-message.png" alt="Send message">
+        </div>
+    </div>
+</body>
+
+</html>
